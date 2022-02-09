@@ -1,0 +1,170 @@
+*{
+    margin: 0;padding: 0;font-family: 'Open Sans', sans-serif
+}
+
+header{
+    background-color: rgb(30, 23, 47);display: flex;flex-direction: row;justify-content: space-around;align-items: center;list-style: none;
+}
+
+
+header li{
+    color: rgb(124, 119, 133);margin-right: 32px;
+}
+
+header li:hover{
+    color: white;cursor: pointer;
+}
+
+header button{
+    cursor: pointer;height: 45px;width: 124px;color: white;border: none;border-radius: 7px;background: linear-gradient(to right, rgb(137, 62, 213), rgb(8, 125, 213));
+}
+
+span{
+    display: flex;flex-direction: row;align-items: center;
+}
+
+.centro{
+    display: flex;    
+}
+
+.izquierda{
+    background-color: rgb(46, 37, 80);color: white;height: 642px;width: 50%;text-align: left;display: flex; align-items: center;justify-content: center;flex-direction: column;
+}
+
+.izq1 h2{
+    font-size: 53px;
+}
+
+.bot-iz{
+    border: 3px solid rgb(88, 81, 115);padding: 6px;border-radius: 5px;
+}
+
+.bd{
+    height: 46px;width: 142px;font-size: 15px;border: 3px solid white;border-radius: 5px;background-color: rgb(46, 37, 80);color: white;cursor: pointer;
+}
+
+.bi{
+    height: 50px; width: 182px; border-radius: 5px; padding-right: 8px; font-size: 15px; color: rgb(235, 102, 171); background-color: rgb(255, 255, 255); cursor: pointer;
+}
+
+.derecha{
+    height: 642px; width: 50%; background-image: url(images/hojasFondo.jfif); background-size: cover;
+}
+
+.derecha img{
+    height: 437px; padding: 15% 0 0 9%;
+}
+
+.foncti{
+    background-color: rgb(241, 242, 247); text-align: center;
+}
+
+.foncti h2{
+    color: rgb(244, 20, 134); font-size: 41px;
+}
+
+.contenido-fon{
+    list-style: none;display: flex;height: 294px;justify-content: center;flex-direction: row;
+}
+
+.contenido-fon span{
+    color: rgb(237, 45, 144);
+}
+
+.foncti img{
+    padding-right: 104px;
+}
+
+.foncti h3{
+    font-size: 42px;color: rgb(194, 76, 137);
+}
+
+.foncti h4{
+    font-size: 18px;color: rgb(238, 49, 146);
+}
+li{
+    list-style: none;
+}
+
+.lista-fon{
+    text-align: left;
+}
+
+.negro{
+    color: black;
+}
+
+.pyp{
+    background-color: rgb(30, 23, 47);display: flex;align-items: center;justify-content: center;flex-direction: column;text-align: center;
+}
+
+.pyp h2{
+    color: white;font-size: 42px;
+}
+
+.pyp p{
+    color: rgb(169, 167, 175);
+}
+
+.promo{
+    display: flex;gap: 35px;text-align: center;justify-content: center;
+}
+.lite{
+    border-radius: 5px;height: 513px;background-color: white;width: 300px;
+}
+
+.standard{
+    border-radius: 5px;height: 513px;background-color: white;width: 300px;
+}
+
+.ultimate{
+    border-radius: 5px;height: 513px;background-color: white;width: 300px;
+}
+
+.c-precio{
+font-size: 33px;
+}
+.boton{
+    background-color: rgb(245, 245, 245);padding: 21px
+}
+
+.boton button{
+    background: linear-gradient(to right, rgb(235, 102, 171), rgb(244, 21, 135));padding: 14px 37px;border-radius: 7px;color: white;border: none;cursor: pointer;
+}
+
+.boton3{
+    background-color: rgb(245, 245, 245);padding: 21px
+}
+
+.boton3 button{
+    padding: 14px 37px;background: none;background-color: #1e172f;border-radius: 7px;color: white;border: none;cursor: pointer;
+}
+
+.ultimo{
+    display: flex;justify-content: space-evenly;
+}
+.ultimo ul li{
+    list-style: none;
+}
+.lista2 ul li{
+    color:  #f41486;
+}
+
+.lista4 ul li{
+    color:  #1e172f;
+}
+
+.caja-pr{
+    display: flex;height: 10%;justify-content: center;background-color: rgb(245, 245, 245);align-items: center;
+}
+
+footer{
+    height: 61px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .txt{
+    display: flex;
+    padding: 19px 10px ;
+  }
